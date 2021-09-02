@@ -62,7 +62,7 @@ body {
   }
   
   @media screen and (max-width: 600px) {
-    .topnav a {display: none;}
+    .topnav a:not(:nth-last-child(2)) {display: none;}
     .topnav a.icon {
       float: right;
       display: block;
