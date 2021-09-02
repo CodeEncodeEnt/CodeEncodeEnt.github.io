@@ -77,7 +77,18 @@ body {
     margin: 0px;
     font-family: Helvetica, sans-serif;
   }
+
+  #welcomeMessage{
+    padding-top: 0px;
+    padding-left: 0px;
+    color:#00BCD4;
+    display:inline-block;
+
   }
+  #welcomeMessage h1{
+    width: 100%;
+  }
+}
   
   @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
